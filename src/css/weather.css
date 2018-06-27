@@ -1,0 +1,39 @@
+*{
+margin: 0;
+padding: 0;
+}
+.tabset {
+    margin: 0 0 -1px 15px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+
+}
+.tabset a {
+    float: left;
+    padding: 10px 20px;
+
+    border: 1px solid #666;
+    color: #000;
+    text-decoration: none;
+    background: #ccc;
+}
+.tabset a.active {
+    border-bottom: 1px solid aqua;
+    background: aqua;
+}
+.tab-hold {
+    padding: 10px;
+    border: 1px solid #666;
+    background-color: aqua;
+    display: inline-block;
+
+}
+
+.boxes{
+    display: inline-block;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
